@@ -31,7 +31,7 @@ console.log(initialOccupiedSpace); // 16
 let week0Area = ((numberOfPlants * spacePerPlant) / area).toFixed(3);
 //multiply by 100 to get %
 let week0PercentOfTotalArea = week0Area * 100;
-console.log(`To start the garden (week 0), there are ${numberOfPlants} plants, which take up ${initialOccupiedSpace} square meters out of ${area} square meters of inital space. This is ${week0PercentOfTotalArea}% of the garden.`)
+console.log(`To start the garden (week 0), there are ${numberOfPlants} plants, which take up ${initialOccupiedSpace} square meters out of ${area} square meters of initial space. This is ${week0PercentOfTotalArea}% of the garden.`)
 
 // week1 = number of plants that are in the garden at 1 week.
 let week1 = numberOfPlants * 2;
